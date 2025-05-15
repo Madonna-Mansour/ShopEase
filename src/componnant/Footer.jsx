@@ -10,7 +10,7 @@ const Footer = () => {
             <p>areas in Egypt</p>
         </div>
 
-       <div className=" flex justify-center">
+       <div className="  my-10">
           <div className="">
           <h1>Categories</h1>
             <p>New In</p>
@@ -24,7 +24,7 @@ const Footer = () => {
           <h1>Subscribe to our newsletter</h1>
            <div className="my-4">
             <input className='w-80 h-10' type="text" />
-            <button className='bg-black h-10 w-[120px]'>SUBSCIBE</button>
+            <button className='bg-black mt-4 h-10 w-[120px]'>SUBSCIBE</button>
            </div>
            <p className='my-2'>For collaboration contact us at </p>
            <p>customer.service@dresscodeme.com</p>

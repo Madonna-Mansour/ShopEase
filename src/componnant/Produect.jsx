@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux'
 import { Link, useLoaderData } from 'react-router-dom'
 import { addToCart } from '../Redux/appSlice'
 import imgg from '../assets/R.jpg'
+import img2 from '../assets/image.png'
 
 const Products = () => {
     const data = useLoaderData()
