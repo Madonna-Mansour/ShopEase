@@ -35,9 +35,9 @@ const Nav = () => {
     
 
 
-      <Link to='/Registr' className='text-orange-200'>
+      <Link to='/Registr' >
         {userInfo ? (
-           <>Hello: {userInfo.userName}</> 
+           <><span className='text-orange-200'>Hello: </span> {userInfo.userName}</> 
         ): ( 
         <>
         <button>  <FaUserLarge /> </button>
