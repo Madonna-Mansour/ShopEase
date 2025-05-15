@@ -13,7 +13,8 @@ const Products = () => {
 
   return (
     <div className="bg-[#e6e6e1]">
-      <div className="h-[450px]  bg-[url(src/assets/R.jpg)] overflow-hidden text-white ">
+      {/* <div className="h-[450px]  bg-[url(src/assets/R.jpg)] overflow-hidden text-white "> */}
+      <div style={{ backgroundImage: `url(${imgg})` }} className="h-[450px]  bg-[url(src/assets/R.jpg)] overflow-hidden text-white ">
          {/* <div className="w-[500px] m-40 "> */}
          <div className="w-[500px] sticky start-40 top-56  sm:hidden md:flex">
            <div className="">
