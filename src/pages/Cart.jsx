@@ -47,10 +47,10 @@ const Cart = () => {
           <p>Pic: {product.quantity}</p>
           <div className="flex justify-between my-4">
              <div className="flex">
-                <button className='bg-[#73946B] w-12 h-12 text-[#e6e6e1] hover:bg-green-500 mr-8 text-[20px] rounded' onClick={() => dispatch(increament(product.id))}>+</button> <br />
+                <button className='bg-[#73946B] w-12 h-12 text-[#e6e6e1] hover:bg-green-500 mr-4 text-[20px] rounded' onClick={() => dispatch(increament(product.id))}>+</button> <br />
                 <button className='bg-[#73946B] w-12 h-12 text-[#e6e6e1] hover:bg-red-500 text-[20px] rounded' onClick={() => dispatch(decreament(product.id))}>-</button>
              </div>
-             <button  className='bg-[#e6e6e1] rounded w-[50%] h-12 text-red-500 border border-red-500 hover:bg-red-500 hover:text-[#e6e6e1] text-[20px]' onClick={() => dispatch(remove(product.id))}>remove</button>
+             <button  className='bg-[#e6e6e1] ms-4 rounded w-[50%] h-12 text-red-500 border border-red-500 hover:bg-red-500 hover:text-[#e6e6e1] text-[20px]' onClick={() => dispatch(remove(product.id))}>remove</button>
           </div>
 
         </div>
