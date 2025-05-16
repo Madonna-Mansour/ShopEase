@@ -24,7 +24,7 @@ const Nav = () => {
   }
 
   return (
-    <div className='bg-[#73946B] text-white p-4 flex justify-around items-center text-[18px]'>
+    <div className='bg-[#73946B]  text-white p-4 flex justify-around items-center text-[18px]'>
     {/* // <div className='bg-[#D2D0A0]'> */}
 
       

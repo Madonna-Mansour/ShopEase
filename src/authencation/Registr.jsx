@@ -45,7 +45,7 @@ const Registr = () => {
   return (
    <div className='bg-[#e6e6e1] h-[100vh] flex justify-center items-center flex-col'>
       <h1 className='text-center  mb-8 font-bold text-[40px]'>Create account</h1>
-     <div className='bg-[#73946B] p-14 w-[40%] rounded' >
+     <div className='bg-[#73946B] p-14 rounded' >
         <form onSubmit={handleSubmit}>
             <label htmlFor="">Enter your name</label> <br />
             <input className='bg-[#e6e6e1] p-4 mb-4 w-[100%] h-[35px] rounded mt-1'

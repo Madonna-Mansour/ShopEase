@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setUser } from '../Redux/appSlice';
 
@@ -39,7 +39,7 @@ const SignIn = () => {
      return (
       <div className='bg-[#e6e6e1] h-[100vh] flex justify-center items-center  flex-col '>
           <h1 className='text-center  mb-8 font-bold text-[40px]'>Log in</h1>
-          <div className='bg-[#73946B] p-14 w-[40%] rounded' >           <form onSubmit={handleSubmit}>
+            <div className='bg-[#73946B] m-6 p-6  rounded' >           <form onSubmit={handleSubmit}>
 
                <label htmlFor="">Enter your name</label>
                <input className='bg-[#D2D0A0] p-4 mb-4 w-[100%] h-[35px] rounded mt-1'
@@ -64,6 +64,8 @@ const SignIn = () => {
              <div className="flex justify-center">
                     <button  className='bg-[#D2D0A0]  w-[50%] h-[35px] rounded mt-8  hover:bg-blue-50' type='submit'>Submit</button>
             </div>
+          <Link className='text-center ' to='/Registr'><p className='mt-10 text-[#e6e6e1]'>Create account ?</p></Link>
+
           </form>
            </div>
          </div>
