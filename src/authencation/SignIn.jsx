@@ -42,7 +42,7 @@ const SignIn = () => {
             <div className='bg-[#73946B] m-6 p-6  rounded' >           <form onSubmit={handleSubmit}>
 
                <label htmlFor="">Enter your name</label>
-               <input className='bg-[#D2D0A0] p-4 mb-4 w-[100%] h-[35px] rounded mt-1'
+               <input className='bg-[#e6e6e1] p-4 mb-4 w-[100%] h-[35px] rounded mt-1'
                   type='email'
                   id="email"
                   value={email}
@@ -52,7 +52,7 @@ const SignIn = () => {
                ></input>
    
                <label htmlFor="">Enter your password</label>
-               <input className='bg-[#D2D0A0] p-4 mb-4 w-[100%] h-[35px] rounded mt-1'
+               <input className='bg-[#e6e6e1] p-4 mb-4 w-[100%] h-[35px] rounded mt-1'
                   type='password'
                   id="password"
                   value={password}
